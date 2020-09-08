@@ -1,0 +1,28 @@
+.img-show {
+    width: 100%;
+    position: relative;
+    height: 5.333333rem /* 200/37.5 */;
+    background-color: pink;
+}
+.pic-count {
+    z-index: 900;
+    width: .933333rem /* 35/37.5 */;
+    height: .666667rem /* 25/37.5 */;
+    background: rgb(58, 57, 57);
+    opacity: 30%;
+    position: absolute;
+    border-radius: 40%;
+    right: .4rem /* 15/37.5 */;
+    top: 4.4rem /* 165/37.5 */;
+}
+.pic-num {
+    color: #ffffff;
+    height: .666667rem /* 25/37.5 */;
+    line-height: .666667rem /* 25/37.5 */;
+    text-align: center;
+}
+.swiper-container {
+    width: 100%;
+    /* height: 6.133333rem 230/37.5; */
+    height: 5.333333rem /* 200/37.5 */;
+}  

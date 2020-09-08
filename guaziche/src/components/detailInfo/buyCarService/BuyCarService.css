@@ -1,0 +1,86 @@
+.buycar-service-top {
+    padding: 0 20px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.buycar-service-iconwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buycar-service-iconitem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+}
+.buycar-service-icon {
+    width: 2em;
+    height: 2em;
+    fill: currentColor;
+    display: block;
+    margin-bottom: 5px;
+}
+.buycar-service-icontext {
+    font-size: 12px;
+}
+/* .buycar-service-detailwrap {
+    
+} */
+.buycar-service-detailitem {
+    margin: 0 20px;
+    padding: 10px 10px;
+    box-shadow: 0 0 3px 3px #f5f5f5;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.buycar-service-detailitem-top {
+
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.buycar-service-detailitem-top > span {
+    display: block;
+}
+.buycar-service-detailitem-desc {
+    display: block;
+    margin-bottom: 10px;
+}
+.font-weight {
+    font-weight: bold;
+}
+.buycar-service-active {
+    color: #21ae37;
+}
+.padding {
+    padding: 0 20px;
+}
+.buycar-service-question-wrap {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.buycar-service-question-wrap > span {
+    display: block;
+    width: 31%;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #f5f8fa;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.buycar-service-question-wrap > span:nth-child(3n) {
+    margin-right: 0;
+}
